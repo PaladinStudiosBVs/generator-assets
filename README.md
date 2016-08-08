@@ -1,3 +1,6 @@
+## Paladin Changes
+- Added return folders. How: in a layer type “default back_2/FolderName/“. And it will return two folders and then move into “FolderName”.
+
 ## Image Asset Generation Plug-in for Generator [![Build Status](https://travis-ci.org/adobe-photoshop/generator-assets.png?branch=master)](https://travis-ci.org/adobe-photoshop/generator-assets)
 
 This repository contains a plug-in for Adobe Photoshop CC's Generator extensibility layer. This plug-in makes it easier for users to export image assets from their Photoshop files. Users simply enable image asset generation for a document and name layers (or layer groups, or smart objects) they want exported using a filename-like syntax. Generator then watches these layers, and any time they change, automatically updates the corresponding assets on disk.
